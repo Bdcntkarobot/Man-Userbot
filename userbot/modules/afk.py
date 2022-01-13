@@ -40,7 +40,7 @@ async def set_not_afk(event):
                 shite = await event.client.send_message(event.chat_id, file=pic)
                 shites = await event.client.send_message(
                     event.chat_id,
-                    f"**{owner} Kembali Online Untuk Parming**\n**Dari AFK :** `{total_afk_time}` **Yang Lalu**",
+                    f"**{owner} Kembali Online Untuk Farming**\n**Dari AFK :** `{total_afk_time}` **Yang Lalu**",
                 )
             else:
                 shite = await event.client.send_message(
@@ -234,7 +234,7 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `{cmd}afk` <alasan> bisa <sambil reply sticker/foto/gif/media>\
         \n  •  **Function : **Memberi tahu kalau Master sedang afk bisa dengan menampilkan media keren ketika seseorang menandai atau membalas salah satu pesan atau dm Anda.\
         \n\n  •  **Syntax :** `{cmd}off`\
-        \n  •  **Function : **Memberi tahu kalau Master sedang OFFLINE, dan menguubah nama belakang menjadi 【 OFF 】 \
+        \n  •  **Function : **Memberi tahu kalau Master sedang OFFLINE, dan mengubah nama belakang menjadi 【 OFF 】 \
     "
     }
 )
