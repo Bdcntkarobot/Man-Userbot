@@ -43,5 +43,11 @@ async def _(event):
           await event.delete() 
 
 
-CMD_HELP.update( 
-  { "botfather": ".botbaru\ \nUntuk Membuat Bot Dari Botfather, .botbaru < bot_name > <bot_username > ." } )
+CMD_HELP.update(
+    {
+        "botfather": f"**Plugin : **`botfather`\
+        \n\n  •  **Syntax :** `.botfather` <bot_name> <bot_username>\
+        \n  •  **Function : **Untuk membuat Bot dari Botfather .\
+        
+   }
+)
