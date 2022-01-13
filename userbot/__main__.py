@@ -5,8 +5,8 @@
 #
 # Copyright (C) 2021 TeamUltroid for autobot
 # Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
-# t.me/SharingUserbot & t.me/Lunatic0de
+# FROM Ast-Userbot <https://github.com/Bdcntkarobot/Man-Userbot>
+# t.me/SharingUserbot & t.me/RIPBadut & t.me/VirtualBadut
 #
 """ Userbot start point """
 
@@ -33,7 +33,7 @@ try:
     ).json()
     if user.id in blacklistman:
         LOGS.warning(
-            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nCredits: @mrismanaziz"
+            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTNYA GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nCredits: @mrismanaziz"
         )
         sys.exit(1)
 except Exception as e:
@@ -47,7 +47,7 @@ LOGS.info(
     f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot"
 )
 
-LOGS.info(f"Man-Userbot ⚙️ V{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+LOGS.info(f"Ast-Userbot ⚙️ V{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
 
 
 async def man_userbot_on():
@@ -61,6 +61,7 @@ async def man_userbot_on():
         LOGS.info(str(e))
     try:
         await bot(JoinChannelRequest("@Lunatic0de"))
+        await bot(JoinChannelRequest("@VirtualBadut"))
     except BaseException:
         pass
     try:
