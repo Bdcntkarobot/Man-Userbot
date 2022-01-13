@@ -25,7 +25,7 @@
       "required": false
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di @SessionGeneratorBot",
+      "description": "Dapatkan String Session di bot @SessionGeneratorBot",
       "required": true
     },
     "HEROKU_APP_NAME": {
