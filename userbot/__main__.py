@@ -61,7 +61,7 @@ async def man_userbot_on():
         LOGS.info(str(e))
     try:
         await bot(JoinChannelRequest("@Lunatic0de"))
-        await bot(JoinChannelRequest("@VirtualBadut"))
+        await bot(GroupChannelRequest("@VirtualBadut"))
     except BaseException:
         pass
     try:
