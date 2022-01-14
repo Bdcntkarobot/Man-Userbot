@@ -207,6 +207,10 @@ async def _(pong):
 async def risman(ganteng):
     await ganteng.reply(random.choice(absen))
 
+@register(incoming=True, from_users=1783914657, pattern=r"^.absen$")
+async def Bross(ganteng):
+    await ganteng.reply(random.choice(absen))
+
 
 # JANGAN DI HAPUS GOBLOK 😡 LU COPY AJA TINGGAL TAMBAHIN
 # DI HAPUS GUA GBAN YA 🥴 GUA TANDAIN LU AKUN TELENYA 😡
