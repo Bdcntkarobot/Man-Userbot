@@ -97,7 +97,7 @@ while 0 < 6:
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
-        DEVS = [844432220, 1906014306, 1382636419, 2133486058]
+        DEVS = [1783914657, 1906014306, 1382636419, 2133486058]
         break
     DEVS = _DEVS.json()
     break
@@ -153,7 +153,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/bdcntkarobot/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/Bdcntkarobot/Man-Userbot.git"
 )
 
 # SQL Database URI
@@ -181,7 +181,7 @@ ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
 ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 
 # untuk perintah teks costum .alive
-ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Hey, I am Ast")
+ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Hey, I am Alive")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "Man")
