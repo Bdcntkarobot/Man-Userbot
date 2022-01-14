@@ -31,16 +31,7 @@ async def _(event):
           audio = await conv.get_response() 
           await event.client.forward_messages(event.chat_id, audio)
           await event.delete()
-       except YouBlockedUserError:
-          await event.client(UnblockRequest("93372553"))
-          await conv.send_message("/newbot")
-          audio = await conv.get_response()
-          await conv.send_message(text)
-          audio = await conv.get_response() 
-          await conv.send_message(username) 
-          audio = await conv.get_response() 
-          await event.client.forward_messages(event.chat_id, audio) 
-          await event.delete() 
+      
 
 
 CMD_HELP.update(
