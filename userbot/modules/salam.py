@@ -8,14 +8,15 @@ from userbot.utils import edit_or_reply, man_cmd
 @man_cmd(pattern="p(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Assalamualaikum Dulu Biar Sopan**")
-
+    sleep(3)
+    await xx.edit("**السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
 
 @man_cmd(pattern="pe(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Assalamualaikum Warahmatullahi Wabarakatuh**")
 
 
-@man_cmd(pattern="P(?: |$)(.*)")
+@man_cmd(pattern="hai(?: |$)(.*)")
 async def _(event):
     xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
     sleep(2)
@@ -25,13 +26,14 @@ async def _(event):
 @man_cmd(pattern="l(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Wa'alaikumsalam**")
+    sleep(3)
+    await xx.edit("**وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
 
-
-@man_cmd(pattern="a(?: |$)(.*)")
+@man_cmd(pattern="sc(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
+    xx = await edit_or_reply(event, f"**Assalamualaikum...**")
     sleep(2)
-    await xx.edit("**Assalamualaikum**")
+    await xx.edit("**BISMILLAH SLEEP CALL!!😁**")
 
 
 @man_cmd(pattern="j(?: |$)(.*)")
@@ -61,11 +63,11 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `{cmd}p`\
         \n  •  **Function : **Assalamualaikum Dulu Biar Sopan..\
         \n\n  •  **Syntax :** `{cmd}pe`\
-        \n  •  **Function : **salam Kenal dan salam\
+        \n  •  **Function : **Assalamualaikum Warahmatullahi Wabarakatuh\
         \n\n  •  **Syntax :** `{cmd}l`\
         \n  •  **Function : **Untuk Menjawab salam\
-        \n\n  •  **Syntax :** `{cmd}ass`\
-        \n  •  **Function : **Salam Bahas arab\
+        \n\n  •  **Syntax :** `{cmd}hai`\
+        \n  •  **Function : **Salam kenal dan salam\
         \n\n  •  **Syntax :** `{cmd}semangat`\
         \n  •  **Function : **Memberikan Semangat.\
         \n\n  •  **Syntax :** `{cmd}ywc`\
